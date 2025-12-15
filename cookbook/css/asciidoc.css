@@ -1,0 +1,23 @@
+/* css/asciidoc.css */
+
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8f9fb;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #005fa3;
+}
+
+#header {
+  border-bottom: 4px solid #005fa3;
+}
+
+#header::before {
+  content: "";
+  display: block;
+  height: 60px;
+  background: url("../images/logo.svg") no-repeat left center;
+  background-size: contain;
+}

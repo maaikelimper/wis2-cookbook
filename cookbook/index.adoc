@@ -1,0 +1,43 @@
+:title: WIS2 Cookbook
+:titletext: {title}
+:version: 1.1-dev
+:date: {docdate}
+:copyright: Copyright © 2025 World Meteorological Organization (WMO)
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 4
+:sectanchors:
+:sectnum-start: 2
+
+= {title}
+
+<<<
+[cols = "<",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*World Meteorological Organization*
+|Date: {date}
+|Version: {version}
+|Document status: DRAFT
+|Document location: https://wmo-im.github.io/wis2-cookbook/cookbook/wis2-cookbook-DRAFT.html
+|Standing Committee on Information Management and Technology (SC-IMT)footnote:[https://wmo.int/site/knowledge-hub/governance/infcom/standing-committee-information-management-and-technology-sc-imt]
+|Commission for Observation, Infrastructure and Information Systems (INFCOM)footnote:[https://wmo.int/site/knowledge-hub/governance/infcom]
+|{copyright}
+|===
+
+<<<
+toc::[]
+<<<
+
+include::sections/introduction.adoc[]
+
+include::sections/data-consumers/index.adoc[]
+
+include::sections/data-publishers/index.adoc[]
+
+include::sections/earth-system-discipline-domain-experts/index.adoc[]
