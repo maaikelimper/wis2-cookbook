@@ -20,7 +20,7 @@
 [cols = "<",frame = "none",grid = "none"]
 |===
 |{set:cellbgcolor:#FFFFFF}
-|[big]*World Meteorological Organization*
+|[big]*World Meteorological Organization, Maaike's CSS Styling demo*
 |Date: {date}
 |Version: {version}
 |Document status: DRAFT
