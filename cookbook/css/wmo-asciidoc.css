@@ -43,3 +43,23 @@ h1, h2, h3, h4, h5, h6,
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.subheader, .admonitionblock td.content>.title, .audioblock>.title, .exampleblock>.title, .imageblock>.title, .listingblock>.title, .literalblock>.title, .stemblock>.title, .openblock>.title, .paragraph>.title, .quoteblock>.title, table.tableblock>.title, .verseblock>.title, .videoblock>.title, .dlist>.title, .olist>.title, .ulist>.title, .qlist>.title, .hdlist>.title {
+    line-height: 1.45;
+    color: #005398;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: .25em;
+}
+
+#footer {
+    max-width: none;
+    background: #005398;
+    padding: 1.25em;
+}
+
+#footer-text {
+    color: #ffffff;
+    line-height: 1.44;
+    font-weight: bold;
+}
