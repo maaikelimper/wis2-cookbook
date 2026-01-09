@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 #toctitle {
-  color: #7AB64A;
+  color: #005398;
   font-weight: bold;
 }
 
@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6,
 #header {
   border-bottom: 4px solid #005398;
   margin-top: 10px;
+  color: #005398;
 }
 
 #header::before {
